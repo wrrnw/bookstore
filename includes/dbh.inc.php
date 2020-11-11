@@ -1,14 +1,14 @@
 <?php
 
-$dbServername = "acadmysql.duc.auburn.edu";
-$dbUsername = "qzc0010";
-$dbPassword = "cq19941104";
-$dbName = "qzc0010db";
+// $dbServername = "acadmysql.duc.auburn.edu";
+// $dbUsername = "qzc0010";
+// $dbPassword = "cq19941104";
+// $dbName = "qzc0010db";
 
-// $dbServername = "localhost";
-// $dbUsername = "root";
-// $dbPassword = "";
-// $dbName = "bookstore";
+$dbServername = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "bookstore";
 
 
 // Create connection
