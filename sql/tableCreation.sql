@@ -67,7 +67,7 @@ CREATE TABLE db_order
   FOREIGN KEY     (ShipperID) REFERENCES db_shipper(ShipperID)
 );
 
-CREATE TABLE db_orderDetail
+CREATE TABLE db_orderdetail
 (
   BookID          INT unsigned NOT NULL, 
   OrderID         INT unsigned NOT NULL,                

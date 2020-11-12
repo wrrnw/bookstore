@@ -3,18 +3,18 @@
     <?php
       include_once 'dbh.inc.php';
 
-      $query = $_POST['input_query'];
+      $query = $_POST['input_query']; 
 
       $sql = "$query";
       if (strpos(strtolower($sql), 'drop') !== false) {
-        echo "DO NOT SUPPORT DROP OPERATION! <br>";
+        die("DROP OPERATION ARE NOT SUPPORTED! <br>");
       } else {
         $result = mysqli_query($conn, $sql);
         if ($result == True) {
-          echo "QUERY IMPLEMENTED SUCCESSFULLY! <br>";
-          //header("Location: ../index.php?submit=success");
+          echo "QUERY EXECUTED SUCCESSFULLY! <br>";
+          //header("Location: ../index.php?submit=succßess");
         } else {
-          echo "QUERY IMPLEMENTED FAILED... <br>";
+          die("Error: " . mysqli_errno($conn) . "! " . mysqli_error($conn) . "<br>");
         };
         $resultCheck = mysqli_num_rows($result);
 

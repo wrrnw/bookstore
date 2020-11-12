@@ -55,7 +55,7 @@ VALUES
     ('7', '3', '1', '2016-08-04', '2016-08-04', 1);
 
 
-INSERT INTO db_orderDetail (BookID, OrderID, Quantity) 
+INSERT INTO db_orderdetail (BookID, OrderID, Quantity) 
 VALUES 
     ('1', '1', '2'),
     ('4', '1', '1'),
