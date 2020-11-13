@@ -1,10 +1,12 @@
 <?php
 
+/* Connect to Auburn server database */
 // $dbServername = "acadmysql.duc.auburn.edu";
 // $dbUsername = "qzc0010";
 // $dbPassword = "cq19941104";
 // $dbName = "qzc0010db";
 
+/* Connect to local database */
 $dbServername = "localhost";
 $dbUsername = "root";
 $dbPassword = "";

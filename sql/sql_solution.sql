@@ -4,7 +4,7 @@ JOIN db_supplier
 ON db_book.SupplierID=db_supplier.SupplierID
 JOIN db_subject
 ON db_book.SubjectID=db_subject.SubjectID
-WHERE db_supplier.CompanyName='supplier2';
+WHERE db_supplier.CompanyName='supplier2'
 
 -- 2. Show the name and price of the most expensive book supplied by *supplier3*.  
 SELECT Title, maxPrice
